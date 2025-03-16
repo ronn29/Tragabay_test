@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #3DDBB6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.container{
+    background: hsl(0, 0%, 100%);
+    max-width: 850px;
+    padding: 40px 30px;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0,.2);
+    border-radius: 4px;
+}
+form .form-content .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #59E0C1;
+}
+
+  form .signup-form  .title:before{
+    width: 20px;
+  }
+  form .form-content .input-boxes{
+    margin-top: 30px;
+  }
+  form .form-content .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  .form-content .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(49, 48, 48, 0.2);
+    transition: all 0.3s ease;
+  }
+  .form-content .input-box input:focus,
+  .form-content .input-box input:valid{
+    border-color: #81bcbc;
+  }
+  .form-content .input-box i{
+    position: absolute;
+    color: #48454c;
+    font-size: 17px;
+  }
+  form .form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #181818;
+  }
+  form .form-content .text a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #344597;
+  }
+  form .form-content .text a:hover{
+    text-decoration: underline;
+  }
+  form .form-content .button{
+    color: #fff;
+    margin-top: 40px;
+  }
+  form .form-content .button input{
+    color: #ffffff;
+    background: #59E0C1;;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  form .form-content .button input:hover{
+    background: #46bca1;;
+  }
+  form .form-content #signup,
+  form .form-content #login_now{
+    font-size: 14px;
+    color: #3d98a4;
+    cursor: pointer;
+  }
+  form .form-content label:hover{
+    text-decoration: underline;
+  }
+  form .form-content .login-text,
+  form .form-content .sign-up-text{
+    
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  @media (max-width: 730px) {
+    .form-content .login-form,
+    .form-content .signup-form{
+      width: 100%;
+    }
+}
